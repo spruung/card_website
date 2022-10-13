@@ -37,9 +37,6 @@ ul{
   max-width: 945px;
   margin: auto;
 }
-.header{
-
-}
 .menu{
   display: flex;
   justify-content: space-between;
@@ -122,7 +119,7 @@ ul{
   margin-top: 70px;
   font-family: 'Gilroy';
   font-size: 18px;
-  ine-height: 22px;
+  line-height: 22px;
   color: #070707;
   text-align: center;
 }
