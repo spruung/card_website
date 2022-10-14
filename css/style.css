@@ -140,15 +140,7 @@ ul{
   background-color: #F6F6F6;
   margin-top: 104px;
 }
-.portfolio-title{
-  padding-top: 120px;
-  font-family: 'Gilroy_bold';
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 42px;
-  text-align: center;
-  color: #070707;
-}
+
 .portfolio-content{
   font-family: 'Gilroy';
   font-size: 18px;
@@ -156,6 +148,31 @@ ul{
   color: #070707;
   text-align: center;
   text-decoration: underline;
+}
+
+.portfolio-content img{
+  margin-top: 99px;
+}
+.portfolio-content img:nth-child(1){
+  margin-top: 44px;
+}
+.portfolio-content p{
+  margin-top: 45px;
+
+}
+.portfolio-title{
+  margin-bottom: 0;
+  padding-top: 115px;
+  font-family: 'Gilroy_bold';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.portfolio-title p{
+  margin: 0;
+  padding: 0;
 }
 
 
