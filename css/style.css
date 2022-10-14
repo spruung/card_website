@@ -1,3 +1,5 @@
+/* Font */
+
 @font-face {
   font-family: 'Gilroy';
   src: local('fonts/Gilroy Medium'), local('fonts/Gilroy-Medium'),
@@ -17,7 +19,7 @@
   font-weight: 700;
   font-style: normal;
 }
-
+/* Header */
 body {
   font-size: 18px;
   line-height: 22px;
@@ -81,6 +83,7 @@ ul{
   max-width: 100%;
 }
 
+/* Main */
 
 .about{
   max-width: 100%;
@@ -138,7 +141,8 @@ ul{
 .portfolio{
   max-width: 100%;
   background-color: #F6F6F6;
-  margin-top: 104px;
+  margin: 104px 0 0 0;
+  padding-bottom: 96px;
 }
 
 .portfolio-content{
@@ -175,6 +179,48 @@ ul{
   padding: 0;
 }
 
+/* Footer */
+
+.contacts-block{
+  text-align: center;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.contacts-block h2{
+font-family: 'Gilroy_bold';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+.send-message{
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #070707;
+    border-radius: 30px;
+    margin: 30px 0 92px;
+    padding: 21px 90px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    cursor: pointer;
+}
+.social{
+  width: 342px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+}
+.ending{
+  margin:45px 0 123px;
+  text-align: center;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
 
 
 
