@@ -106,7 +106,6 @@ ul{
   color: #070707;
 }
 .slills-text{
-
   margin-top: 91px;
   font-family: 'Gilroy_bold';
   text-align: center;
@@ -135,6 +134,28 @@ ul{
   font-size: 14px;
   line-height: 17px;
   color: #828282;
+}
+.portfolio{
+  max-width: 100%;
+  background-color: #F6F6F6;
+  margin-top: 104px;
+}
+.portfolio-title{
+  padding-top: 120px;
+  font-family: 'Gilroy_bold';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.portfolio-content{
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  text-align: center;
+  text-decoration: underline;
 }
 
 
